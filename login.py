@@ -50,7 +50,7 @@ def view_all_users():
 def main():
 	"""Simple Login App"""
 
-	st.title("Simple Login App")
+	st.title("Made by code4BBS team")
 
 	menu = ["Home","Login","SignUp"]
 	choice = st.sidebar.selectbox("Menu",menu)
