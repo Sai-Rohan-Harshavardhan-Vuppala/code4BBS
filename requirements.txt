@@ -139,7 +139,7 @@ webencodings==0.5.1
 widgetsnbextension==3.5.2
 yfinance==0.1.70
 zipp==3.7.0
-=======
+
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
