@@ -14,7 +14,11 @@ libstdcxx-ng=9.3.0=hd4cf53a_17
 libuuid=1.0.3=h7f8727e_2
 ncurses=6.3=h7f8727e_2
 openssl=1.1.1m=h7f8727e_0
+<<<<<<< HEAD
 pip=22.0.3=pypi_0
+=======
+pip=21.1.1=pypi_0
+>>>>>>> d3aa7536691f84a5ac35f1769a3305aa24fbba23
 python=3.10.0=h12debd9_4
 readline=8.1.2=h7f8727e_1
 setuptools=58.0.4=pypi_0
