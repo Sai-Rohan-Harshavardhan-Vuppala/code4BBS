@@ -81,7 +81,7 @@ def main():
 				st.title('CRYPTOCUREENCY PREDICTOR')
 
 				stocks = ('BTC-USD', 'ETH-USD', 'DOGE-USD', 'BNB-USD', 'USDC-USD', 'XRP-USD', 'HEX-USD', 'ADA-USD', 'SOL=USD', 'LUNA1-USD', 'AVAX-USD', 'DOT-USD', 'BUSD-USD', 'SHIB-USD', 'MATIC-USD', 'CRO-USD', 'UST-USD', 'WBTC-USD', 'DAI-USD', 'LTC-USD', 'ATOM-USD', 'LINK-USD','NEAR-USD', 'UNI1-USD' )
-				selected_stock = st.selectbox('Select dataset for prediction', stocks)
+				selected_stock = st.selectbox('Select coin for prediction', stocks)
 
 				n_years = st.slider('Years of prediction:', 1, 4)
 				period = n_years * 365
@@ -104,8 +104,8 @@ def main():
 				# Plot raw data
 				def plot_raw_data():
 					fig = go.Figure()
-					fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
-					fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
+					fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="open_price"))
+					fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="close_porice"))
 					fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
 					st.plotly_chart(fig)
 					
