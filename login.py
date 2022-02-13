@@ -78,7 +78,7 @@ def main():
 				START = "2015-01-01"
 				TODAY = date.today().strftime("%Y-%m-%d")
 
-				st.title('CRYPTOCUREENCY PREDICTOR')
+				st.title('CRYPTOCURRENCY PREDICTOR')
 
 				stocks = ('BTC-USD', 'ETH-USD', 'DOGE-USD', 'BNB-USD', 'USDC-USD', 'XRP-USD', 'HEX-USD', 'ADA-USD', 'SOL-USD', 'LUNA1-USD', 'AVAX-USD', 'DOT-USD', 'BUSD-USD', 'SHIB-USD', 'MATIC-USD', 'CRO-USD', 'UST-USD', 'WBTC-USD', 'DAI-USD', 'LTC-USD', 'ATOM-USD', 'LINK-USD','NEAR-USD', 'UNI1-USD','TRX-USD','BCH-USD','FTT-USD','ALGO-USD','LEO-USD','XLM-USD')
 				selected_stock = st.selectbox('Select coin for prediction', stocks)
