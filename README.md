@@ -5,7 +5,7 @@
 
 
 # Aproach towards the problem statement
-We have approached the problem through machine learning. Firstly, we had collected data from kaggle dataset but then we shifted to yfinance api for collecting the data. We used yfinance because of live data supply and low latency. We had trained LSTM model from scratch but we finally used fbprophet which is a pretrained model because it was giving better predictions. 
+The use of machine learning has been our strategy for tackling this issue. At first, we used the Kaggle dataset to get information, but later, we switched to the yfinance API. Yfinance was chosen due to its real-time data feed and low latency. Although we had previously developed an LSTM model, we switched to using a pre-trained model (fbprophet) because it provided more accurate predictions. 
 
 # Webapp description
 We used streamlit (an open source app framework) for our webapp and have implemented the following features:
